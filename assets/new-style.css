@@ -295,18 +295,15 @@ p {
 
 
 /*contact me section starts*/
-.contactmecontainerGrid {
-  display: grid;
-  font-family: sans-serif;
-  margin: 60px 20px 20px;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  margin: 200px;
-  grid-template-areas:
-    "contact-me-heading contact-me-heading mobile-number website github";
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactJumbotron {
+display: flex;
+flex-direction: row;
 }
 
 .contact-me-heading h1 {
