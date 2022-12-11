@@ -1,0 +1,413 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-colour: #92cccd;
+  --font-color: #32343d;
+  --background-color: #edeef6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: var(--background-color);
+}
+
+
+/*header style starts*/
+header {
+  top: 0%;
+  margin-top: 0px;
+}
+
+.navbar-brand {
+  font-family: system-ui;
+  font-size: 35px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: center;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgba(178, 178, 178, 0.45);
+  font-weight: 300;
+}
+
+.jumbotron-fluid {
+  padding-top: 350px;
+  padding-bottom: 350px;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.jumbotronContainer {
+  margin-top: 180px;
+  text-align: center;
+  color: #dcdcdc;
+}
+
+.jumbotron {
+  background-image: url('https://images.pexels.com/photos/4709289/pexels-photo-4709289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+}
+
+/*header style starts*/
+
+/*hero banner section starts*/
+.hero-banner {
+  position: relative;
+  height: 375px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+p {
+  margin: 0;
+}
+
+/*hero banner section ends*/
+
+
+/*about me section starts*/
+
+.about-me {
+  color: var(--font-color);
+  background-color: #4658751a;
+  border-radius: 75px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 6px;
+  margin-bottom: 50px;
+}
+
+.about-me-heading {
+  font-size: 2, 5rem;
+  padding-right: 20px;
+  color: #455875;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.about-me-body {
+  font-size: 18px;
+  color: var(--font-color);
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: white;
+}
+
+.headshot {
+  width: 14%;
+  margin-right: 20px;
+  border-radius: 100%;
+  border: 3px solid #465875;
+}
+
+.headshot:hover {
+  filter: drop-shadow(1px 2px 6px #5d5d5d);
+  transform: scale(1.1);
+  transition: transform .2s;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .headshot {
+    display: flex;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-me-heading {
+    border-right: 0;
+    text-decoration: underline;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-me-body {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .btn-primary {
+    font-size: 20px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-text {
+    font-size: 20px;
+  }
+}
+
+/*about me section ends*/
+
+/*skills style starts*/
+.skills-heading h1 {
+  font-size: 30px;
+  height: 100%;
+  display: flex;
+  color: #455875;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 43px;
+  background-color: #46587529;
+  border-radius: 30px;
+  align-items: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.skillsCard img {
+  width: auto;
+  margin-top: 10px;
+}
+
+.skillsCard {
+  border-radius: 20px;
+  background-color: rgba(178, 178, 178, 0.2);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: system-ui;
+  box-shadow: 5px 5px 5px #888888;
+  font-size: 15px;
+}
+
+.skillsCard:hover {
+  box-shadow: 10px 5px 15px #888888;
+  transform: scale(0.9);
+}
+
+.skills-card-body {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+/*skills style ends*/
+
+/*work style starts*/
+
+.workSection {
+  background-color: #4658751a;
+  border-radius: 75px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.work-heading {
+  font-size: 50px;
+  height: 175px;
+  height: 100%;
+  padding-right: 20px;
+  display: flex;
+  color: #455875;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  background: transparent;
+  border: none;
+  background-color: #46587526;
+  border-radius: 35px;
+}
+
+.card-text {
+  padding-bottom: 10px;
+}
+
+.card-img-top {
+  border-radius: 30px;
+}
+
+.btn-primary {
+  background-color: rgba(178, 178, 178, 1);
+  border: none;
+  color: white;
+}
+
+/*work style ends*/
+
+
+
+
+
+
+
+
+
+
+/*contact me section starts*/
+.contactmecontainerGrid {
+  display: grid;
+  font-family: sans-serif;
+  margin: 60px 20px 20px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 200px;
+  grid-template-areas:
+    "contact-me-heading contact-me-heading mobile-number website github";
+}
+
+.contact-me-heading h1 {
+  grid-area: contact-me-heading;
+  border-right: 4px solid #455875;
+  font-size: 50px;
+  height: 175px;
+  padding-right: 20px;
+  color: #455875;
+}
+
+.mobile-number {
+  grid-area: mobile-number;
+  font-size: 18px;
+  color: var(--font-color);
+  font-weight: 200;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.website {
+  grid-area: website;
+  font-size: 18px;
+  color: var(--font-color);
+  font-weight: 200;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github {
+  grid-area: github;
+  font-size: 18px;
+  color: var(--font-color);
+  font-weight: 200;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-number-icon {
+  width: 50%;
+}
+
+.mobile-number-icon:hover {
+  transform: scale(1.2);
+}
+
+.internet-icon {
+  width: 50%;
+}
+
+.internet-icon:hover {
+  transform: scale(1.2);
+}
+
+.github-icon {
+  width: 50%;
+}
+
+.github-icon:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1200px) {
+  .contactmecontainerGrid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-me-heading h1 {
+    text-decoration: underline;
+    border-right: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile-number {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .website {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .github {
+    font-size: 35px;
+  }
+}
+
+/*contact me section starts*/
