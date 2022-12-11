@@ -301,6 +301,11 @@ footer {
   flex-direction: row;
 }
 
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 .contactJumbotron {
 display: flex;
 flex-direction: row;
