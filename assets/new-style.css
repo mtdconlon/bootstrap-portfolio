@@ -283,6 +283,16 @@ p {
   color: white;
 }
 
+.btn-primary:hover {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+
+@media (max-width: 992px) {
+  .col-lg-12 {
+    margin-top: 10px!important;
+  }
+}
 /*work style ends*/
 
 
@@ -297,33 +307,36 @@ p {
 /*contact me section starts*/
 
 footer {
-  display: flex;
-  flex-direction: row;
-}
-
-.contactContainer {
-  display: flex;
-  flex-direction: row;
+  background-color: #49505724;
+  height:150px;
 }
 
 .contactJumbotron {
 display: flex;
 flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
-.contact-me-heading h1 {
-  grid-area: contact-me-heading;
-  border-right: 4px solid #455875;
-  font-size: 50px;
-  height: 175px;
-  padding-right: 20px;
-  color: #455875;
+.contact-me {
+  display: flex;
+  justify-content: center;
+}
+
+.contactJumbotron h1 {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #465875;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #465875;
+  padding-right: 10px;
 }
 
 .mobile-number {
   grid-area: mobile-number;
   font-size: 18px;
-  color: var(--font-color);
+  color: white;
   font-weight: 200;
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
@@ -335,7 +348,7 @@ flex-direction: row;
 .website {
   grid-area: website;
   font-size: 18px;
-  color: var(--font-color);
+  color: white;
   font-weight: 200;
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
@@ -347,7 +360,7 @@ flex-direction: row;
 .github {
   grid-area: github;
   font-size: 18px;
-  color: var(--font-color);
+  color: white;
   font-weight: 200;
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
