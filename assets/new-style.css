@@ -64,8 +64,7 @@ header {
   background-size: cover;
   background-position: center;
 }
-
-/*header style starts*/
+/*header style ends*/
 
 /*hero banner section starts*/
 .hero-banner {
@@ -78,17 +77,13 @@ header {
   background-position: center;
 }
 
-
-
 p {
   margin: 0;
 }
-
 /*hero banner section ends*/
 
 
 /*about me section starts*/
-
 .about-me {
   color: var(--font-color);
   background-color: #4658751a;
@@ -181,6 +176,8 @@ p {
 }
 /*about me section ends*/
 
+
+
 /*skills style starts*/
 .skills-heading h1 {
   font-size: 30px;
@@ -227,6 +224,7 @@ p {
 .row {
   justify-content: space-between;
 }
+
 /*skills style ends*/
 
 
@@ -297,7 +295,7 @@ p {
 /*footer section starts*/
 footer {
   background-color: #49505724;
-  height: 25vh;
+  height: 20vh;
   width: 100%;
 }
 
@@ -395,5 +393,4 @@ footer {
   box-shadow: 5px 5px 5px #888888;
   border-radius: 50px;
 }
-
-/*contact me section starts*/
+/*footer section ends*/
